@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250201-1612-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.31.5"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-2J6BCTA"
+	OSRelease=" Professional"
+	OSVersion=" (Build 22631)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="0"
+	ModelName="AMD Ryzen 5 5500                               "
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="17301"
+	TotalPhysicalMemory="16277"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3593"
+	>
+	<Testing>
+		<StartDateTime>Feb 01 17:12 Hora est[NON-UTF-8-BYTE-0xE1]ndar romance</StartDateTime>
+		<StartTestTime>1738426374</StartTestTime>
+		<TestList/>
+		<EndDateTime>Feb 01 17:12 Hora est[NON-UTF-8-BYTE-0xE1]ndar romance</EndDateTime>
+		<EndTestTime>1738426374</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

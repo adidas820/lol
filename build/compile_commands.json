@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Wallapop/cpp/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe   -g -o CMakeFiles\\rogue.dir\\main.cpp.obj -c C:\\Users\\Wallapop\\cpp\\main.cpp",
+  "file": "C:/Users/Wallapop/cpp/main.cpp",
+  "output": "CMakeFiles/rogue.dir/main.cpp.obj"
+}
+]
