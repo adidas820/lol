@@ -1,3 +1,0 @@
-C:/Users/Wallapop/cpp/out/build/run/CMakeFiles/rogue.dir
-C:/Users/Wallapop/cpp/out/build/run/CMakeFiles/edit_cache.dir
-C:/Users/Wallapop/cpp/out/build/run/CMakeFiles/rebuild_cache.dir
