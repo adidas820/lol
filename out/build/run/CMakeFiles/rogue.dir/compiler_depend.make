@@ -168,12 +168,16 @@ CMakeFiles/rogue.dir/src/main.cpp.obj: C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
-  C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/components/healthComponent.hpp \
-  C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/components/positionComponent.hpp \
-  C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/entity.hpp
+  C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/Entity.hpp \
+  C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/EntityManager.hpp \
+  C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/components/HealthComponent.hpp \
+  C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/components/PositionComponent.hpp \
+  C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/systems/MovementSystem.hpp
 
 
-C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/components/healthComponent.hpp:
+C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/systems/MovementSystem.hpp:
+
+C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/components/PositionComponent.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h:
 
@@ -255,8 +259,6 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream_insert.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc:
 
-C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/components/positionComponent.hpp:
-
 C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_ptr.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h:
@@ -337,6 +339,8 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/atomic_lockfree_defines.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/allocator.h:
 
+C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/Entity.hpp:
+
 C:/msys64/ucrt64/include/c++/13.2.0/tuple:
 
 C:/msys64/ucrt64/include/sys/types.h:
@@ -348,6 +352,8 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/ios_base.h:
 C:/msys64/ucrt64/include/c++/13.2.0/bits/char_traits.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h:
+
+C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/components/HealthComponent.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_forced.h:
 
@@ -361,6 +367,8 @@ C:/msys64/ucrt64/include/sec_api/stdio_s.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/range_access.h:
 
+C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/EntityManager.hpp:
+
 C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_ios.tcc:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_defines.h:
@@ -370,8 +378,6 @@ C:/msys64/ucrt64/include/c++/13.2.0/ext/alloc_traits.h:
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/new:
-
-C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/entity.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h:
 

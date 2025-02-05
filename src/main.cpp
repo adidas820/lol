@@ -1,19 +1,33 @@
 #include <iostream>
-#include "entity.hpp"
-#include "components/healthComponent.hpp"
-#include "components/positionComponent.hpp"
+#include "Entity.hpp"
+#include "EntityManager.hpp"
+#include "components/HealthComponent.hpp"
+#include "components/PositionComponent.hpp"
+#include "systems/MovementSystem.hpp"
 
 int main(int, char**){
-    Entity player;
-    player.addComponent(std::make_shared<healthComponent>(100));
-    player.addComponent(std::make_shared<positionComponent>(1,1));
+    EntityManager entityManager;
 
-    auto health = player.getComponent<healthComponent>();
-    auto position = player.getComponent<positionComponent>();
+    auto player = entityManager.createEntity();
+    player->addComponent(std::make_shared<PositionComponent>(0, 0));
+    player->addComponent(std::make_shared<HealthComponent>(100));
+
+    int dx, dy;
+
+    auto position = player->editComponent<PositionComponent>();
+    auto health = player->getComponent<HealthComponent>();
+
+    std::cin >> dx >> dy;
+
+    MovementSystem::move(*player, dx, dy);
+
     if (health) {
-        std::cout << "HP: " << health->hp << "\n";
-        std::cout << position->x << "\n";
+        std::cout << "Jugador HP: " << health->hp << "\n";
     }
     
+    if (position) {
+        std::cout << position->x << "," << position->y;
+    }
+
     return 0;
 }

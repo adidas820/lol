@@ -169,7 +169,9 @@ CMakeFiles/rogue.dir/src/main.cpp.obj
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h
- C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/components/healthComponent.hpp
- C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/components/positionComponent.hpp
- C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/entity.hpp
+ C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/Entity.hpp
+ C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/EntityManager.hpp
+ C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/components/HealthComponent.hpp
+ C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/components/PositionComponent.hpp
+ C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/systems/MovementSystem.hpp
 

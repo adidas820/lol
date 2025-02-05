@@ -1,9 +1,9 @@
 #pragma once
 #include "../Component.hpp"
 
-class healthComponent : public Component {
+class HealthComponent : public Component {
     public:
         int hp;
 
-        healthComponent(int health) : hp(health) {}
+        HealthComponent(int health) : hp(health) {}
 };

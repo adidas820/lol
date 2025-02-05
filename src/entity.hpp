@@ -22,6 +22,16 @@ class Entity {
             }
             return nullptr;
         }
-        
+
+        template <typename T>
+        T* editComponent() {
+            for (auto& comp : components) {
+            T* casted = dynamic_cast<T*>(comp.get());
+                if (casted) {
+                    return casted;
+                }
+        }
+        return nullptr;
+    }
         void removeAllComponents();
 };

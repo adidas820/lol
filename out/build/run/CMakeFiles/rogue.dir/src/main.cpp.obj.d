@@ -134,7 +134,7 @@ CMakeFiles/rogue.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/istream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
- C:\Users\Micue\Desktop\Sauce\cpp\ecs\lol\src\entity.hpp \
+ C:\Users\Micue\Desktop\Sauce\cpp\ecs\lol\src\Entity.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/vector \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
@@ -158,6 +158,8 @@ CMakeFiles/rogue.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/backward/auto_ptr.h \
  C:/msys64/ucrt64/include/c++/13.2.0/pstl/glue_memory_defs.h \
  C:/msys64/ucrt64/include/c++/13.2.0/pstl/execution_defs.h \
- C:\Users\Micue\Desktop\Sauce\cpp\ecs\lol\src\components/healthComponent.hpp \
+ C:\Users\Micue\Desktop\Sauce\cpp\ecs\lol\src\EntityManager.hpp \
+ C:\Users\Micue\Desktop\Sauce\cpp\ecs\lol\src\components/HealthComponent.hpp \
  C:/Users/Micue/Desktop/Sauce/cpp/ecs/lol/src/Component.hpp \
- C:\Users\Micue\Desktop\Sauce\cpp\ecs\lol\src\components/positionComponent.hpp
+ C:\Users\Micue\Desktop\Sauce\cpp\ecs\lol\src\components/PositionComponent.hpp \
+ C:\Users\Micue\Desktop\Sauce\cpp\ecs\lol\src\systems/MovementSystem.hpp
