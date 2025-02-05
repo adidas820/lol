@@ -25,6 +25,8 @@ class Game {
         std::cin >> input;
 
         auto player = entityManager.getEntity(0);
+        if (!player) return;
+
         auto position = player->editComponent<PositionComponent>();
 
         if (position) {
