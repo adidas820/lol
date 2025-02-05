@@ -1,37 +1,34 @@
 #pragma once
-#include <vector>
+#include <unordered_map>
 #include <memory>
-
-class Component;
+#include "Component.hpp"
 
 class Entity {
-    public:
-        std::vector<std::shared_ptr<Component>> components;
+private:
+    int id;  // Identificador único
 
-        template <typename T>
-        void addComponent (std::shared_ptr<T> component) {
-            components.push_back(component);
-        } 
+public:
+    std::unordered_map<std::size_t, std::shared_ptr<Component>> components;
 
-        template <typename T>
-        T* getComponent() {
-            for (auto& comp : components) {
-                if (T* casted = dynamic_cast<T*>(comp.get())) {
-                    return casted;
-                }
-            }
-            return nullptr;
-        }
+    Entity(int id) : id(id) {}
 
-        template <typename T>
-        T* editComponent() {
-            for (auto& comp : components) {
-            T* casted = dynamic_cast<T*>(comp.get());
-                if (casted) {
-                    return casted;
-                }
-        }
-        return nullptr;
+    int getID() const {  // ⬅️ Agregamos esta función
+        return id;
     }
-        void removeAllComponents();
+
+    template <typename T>
+    void addComponent(std::shared_ptr<T> component) {
+        components[typeid(T).hash_code()] = component;
+    }
+
+    template <typename T>
+    std::shared_ptr<T> getComponent() {
+        auto it = components.find(typeid(T).hash_code());
+        return (it != components.end()) ? std::static_pointer_cast<T>(it->second) : nullptr;
+    }
+
+    template <typename T>
+    std::shared_ptr<T> editComponent() {
+        return getComponent<T>();
+    }
 };
