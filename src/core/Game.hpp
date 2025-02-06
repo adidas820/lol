@@ -2,6 +2,7 @@
 #include "../EntityManager.hpp"
 #include "../systems/MovementSystem.hpp"
 #include "../systems/RenderSystem.hpp"
+#include "../components/HealthComponent.hpp"
 #include <iostream>
 
 class Game {
